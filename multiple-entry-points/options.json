@@ -1,0 +1,8 @@
+{
+	"entryPoints": [
+		"multiple1.ts",
+		"multiple2.ts"
+	],
+	"tsconfig": "tsconfig.json",
+	"out": "out"
+}

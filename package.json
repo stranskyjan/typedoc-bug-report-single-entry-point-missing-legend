@@ -1,0 +1,13 @@
+{
+	"name": "typedoc-bug-report-single-entry-point-missing-legend",
+	"version": "0.0.0",
+	"devDependencies": {
+		"typescript": "4.6.4",
+		"typedoc": "0.22.15"
+	},
+	"scripts": {
+		"single": "node_modules/.bin/typedoc --options single-entry-point/options.json",
+		"multiple": "node_modules/.bin/typedoc --options multiple-entry-points/options.json",
+		"test": "npm run single && npm run multiple"
+	}
+}

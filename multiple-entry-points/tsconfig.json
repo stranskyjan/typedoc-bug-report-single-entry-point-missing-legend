@@ -1,0 +1,6 @@
+{
+	"include": [
+		"multiple1.ts",
+		"multiple2.ts"
+	]
+}
